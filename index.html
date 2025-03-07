@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Nimbus Shooter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <img src="https://i.imgur.com/8Z8fXzL.png" alt="Goku" class="goku">
+        <img src="https://i.imgur.com/3X9fY5m.png" alt="Piccolo" class="piccolo">
+        <div class="game-container">
+            <h1>Dragon Ball Nimbus Shooter</h1>
+            <div class="stats">
+                <p>Score: <span id="score">0</span></p>
+            </div>
+            <canvas id="gameCanvas" width="400" height="300"></canvas>
+        </div>
+    </div>
+    <audio id="shootSound" src="https://www.myinstants.com/media/sounds/energy-blast.mp3"></audio>
+    <audio id="hitSound" src="https://www.myinstants.com/media/sounds/explosion.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
